@@ -6,8 +6,17 @@ public class UserDTO {
     private String nome;
     private String cpf;
     private String endereco;
+    private String email;
     private String telefone;
     private Date dataCadastro;
+
+    public String getEmail() {
+        return email;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
 
     public Date getDataCadastro() {
         return dataCadastro;
