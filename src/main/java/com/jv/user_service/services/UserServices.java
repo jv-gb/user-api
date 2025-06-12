@@ -2,11 +2,13 @@ package com.jv.user_service.services;
 
 import com.jv.user_service.dto.UserDTO;
 import jakarta.annotation.PostConstruct;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@Service
 public class UserServices {
     public static List<UserDTO> usuarios = new ArrayList<UserDTO>();
 
